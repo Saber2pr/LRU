@@ -23,18 +23,17 @@
     "ts-jest": "^24.0.2",
     "typescript": "^3.4.3"
   },
+  "keywords": [
+    "LRU",
+    "Cache"
+  ],
   "jest": {
     "transform": {
       "^.+\\.tsx?$": "ts-jest"
     },
-    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
     "moduleFileExtensions": [
       "ts",
-      "tsx",
-      "js",
-      "jsx",
-      "json",
-      "node"
+      "js"
     ]
   }
 }
