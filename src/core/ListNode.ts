@@ -4,7 +4,7 @@
  * @Last Modified by: saber2pr
  * @Last Modified time: 2019-08-22 15:18:04
  */
-type Key = string | symbol
+type Key = string | symbol | Object
 
 export class ListNode {
   public prev: ListNode

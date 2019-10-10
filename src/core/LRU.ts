@@ -4,10 +4,10 @@
  * @Last Modified by: saber2pr
  * @Last Modified time: 2019-08-22 15:18:34
  */
-import { ListNode } from './ListNode'
-import { HashMap } from './HashMap'
+import { ListNode } from "./ListNode"
+import { HashMap } from "./HashMap"
 
-type Key = string | symbol
+type Key = string | symbol | Object
 
 export class LRU {
   private hashMap = new HashMap<Key, ListNode>()
